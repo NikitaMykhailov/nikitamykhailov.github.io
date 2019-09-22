@@ -55,6 +55,7 @@ body {
 	padding: 15px;
 	border-radius: 5px;
 	border: 1px solid #000;
+	margin-bottom: 20px;
 }
 
 .reg-form_label {
@@ -73,7 +74,7 @@ body {
 	width: 100%;
 }
 
-.reg-form__input[type="submit"] {
+.reg-form_input[type="submit"] {
 	width: 50%;
 	margin: 0 auto;
 	text-transform: uppercase;
@@ -83,10 +84,12 @@ body {
 .pass_span {
 	display: block;
 	margin-bottom: 10px;
+	text-transform: uppercase;
 }
 
 [type="checkbox"] {
-	margin-left: 1rem;
+	padding-left: 1rem;
+
 }
 
 .blue-text {
