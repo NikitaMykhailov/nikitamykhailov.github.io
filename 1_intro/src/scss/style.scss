@@ -1,0 +1,168 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 100%;
+	font-family: 'Raleway', sans-serif;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+.cahee__section {
+	padding: 100px 0;
+}
+
+.t-lower {
+	text-transform: lowercase;
+}
+
+a:hover {
+	transition: all .3s ease;
+}
+
+.cahee_btn {
+	display: block;
+	background-color: #f72b3b;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 15px 0;
+	max-width: 200px;
+	margin: auto;
+}
+
+.cahee__btn:hover {
+	background-color: #fff;
+
+}
+
+.cahee__shadow {
+	box-shadow: 3px 3px 13px 1px #000;
+}
+
+.blog {
+	background-color: #b07cf7;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	padding: 0 15px;
+	margin:  0 auto;
+}
+
+.cahee__title {
+	font-size: 90px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 40px;
+}
+
+.cahee__subtitle {
+	font-size: 17px;
+	font-weight: 300;
+	width: 100%;
+	max-width: 570px;
+	margin: auto;
+	text-align: center;
+	line-height: 1.4;
+	margin-bottom: 50px;
+}
+
+.blog__list {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.blog__link {
+	display: block;
+	width: 100%;
+	min-width: 360px;
+	max-width: 360px;
+	height: 310px;
+	padding: 30px;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+
+}
+
+.blog__link:hover {
+	transform: translate3d(0, -10px, 45px);
+	opacity: .8;
+
+}
+
+.blog__date {
+	display: block;
+	width: 60px;
+	height: 60px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	line-height: 0.5;
+	text-transform: uppercase;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,40%)
+}
+
+.blog__month {
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1;
+	transform: translateY(7px);
+}
+
+.blog__link[data-img="lemon"] {
+	background: url('../img/1.png') no-repeat;
+}
+
+.blog__link[data-img="soup"] {
+	background: url('../img/2.png') no-repeat 0 100%;
+
+}
+
+.blog__link[data-img="raspberry"] {
+	background: url('../img/3.png') no-repeat;
+}
+
+.blog__title {
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: capitalize;
+	line-height: 1,1;
+	margin-bottom: 20px;
+}
+
+.blog__author {
+	font-size: 15px;
+	font-weight: 300;
+
+}
+
+.blog__footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 30px;
+	width: 100%;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 2%,rgba(0,0,0,0.65) 67%);
+}
+
+
+
+/* #b07cf7 - violet
+#f72b3b - pink
+#fff
+#000
+ */
