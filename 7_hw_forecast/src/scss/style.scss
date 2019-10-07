@@ -1,0 +1,117 @@
+* {
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #2793cb;
+	color: white;
+	font-family: 'Muli', sans-serif;
+}
+
+h1 {
+	margin: 40px 0 30px;
+	text-transform: capitalize;
+	font-size: 25px;
+}
+
+.forecast__section {
+	max-width: 800px;
+    margin: auto;
+}
+
+.forecast__city-list {
+	height: 100%;
+	list-style-type: none;
+	font-size: 0;
+	margin-bottom: 25px;
+
+}
+
+.forecast__small-item, .forecast__middle-item, .forecast__large-item {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+	font-weight: 800;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	color: #cff7fe;
+	padding: 20px 0 20px;
+	border: 2px solid #fff;
+	opacity: 0.5;
+	transition: all .3s ease;
+}
+
+a:hover {
+	opacity: 1;
+}
+
+p {
+	font-weight: 300;
+	padding-top: 17px;
+}
+
+.forecast__small-item {
+	width: 25%;
+}
+
+.forecast__middle-item {
+	width: 50%;
+}
+
+.forecast__large-item {
+	width: 100%;
+}
+
+.city__aqua {
+	background-color: #24bdc7;
+}
+
+.city__light-pink {
+	background-color: #976f96;
+}
+
+.city__red {
+	background-color: #c75441;
+}
+
+.city__orange {
+	background-color: #e67243;
+}
+
+.city__yellow {
+	background-color: #fecb5c;
+}
+
+.city__light-green {
+	background-color: #94c394;
+}
+
+.city__unknow {
+	background-color: #5f9393;
+}
+
+.city__pink {
+	background-color: #cc7391;
+}
+
+.city__green {
+	background-color: #278d64;
+}
+
+.city__purple {
+	background-color: #626a95;
+}
+
+h3 {
+	text-transform: capitalize;
+	font-size: 15px;
+}
