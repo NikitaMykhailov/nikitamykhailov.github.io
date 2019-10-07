@@ -38,7 +38,6 @@ header {
 .form {
 	width: 100%;
 	max-width: 800px;
-	max-height: 380px;
 	margin: auto;
 }
 
@@ -47,7 +46,6 @@ header {
 }
 
 .form__list-item {
-	background-color: #848599;
 	list-style-type: none;
 }
 
@@ -55,26 +53,24 @@ header {
 	background-color: #77778e;
 	display: block;
 	padding: 15px;
-	opacity: 0.50;
 	border: 2px solid transparent;
 	transition: all .3s ease;
 }
 
-.form__list-item:nth-child(odd) .form__label{
+.form__label:active {
+	background-color: #cc796c;
+}
+
+.form__label:nth-child(odd) .form__list-item {
 	background-color: #626284;
 }
 
 .form__label:hover {
 	display: block;
 	padding: 15px;
-	opacity: 1;
 	border-top: 2px solid #c0c2c8;
 	border-bottom: 2px solid #c0c2c8;
 	cursor: pointer;
-}
-
-.form__label:active {
-	background-color: #cc796c;
 }
 
 input[type=checkbox] {
@@ -83,7 +79,7 @@ input[type=checkbox] {
     -webkit-transform: scale(2);
 }
 
-input:checked + span {
+input:checked ~ span {
 	text-decoration: line-through;
 }
 
