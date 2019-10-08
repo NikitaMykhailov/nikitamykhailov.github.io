@@ -11,18 +11,18 @@ body {
 }
 
 h1 {
-	margin: 40px 0 30px;
 	text-transform: capitalize;
 	font-size: 25px;
+	margin-bottom: 20px;
 }
 
 .forecast__section {
 	max-width: 800px;
     margin: auto;
+    padding: 20px;
 }
 
 .forecast__city-list {
-	height: 100%;
 	list-style-type: none;
 	font-size: 0;
 	margin-bottom: 25px;
@@ -32,31 +32,32 @@ h1 {
 .forecast__small-item, .forecast__middle-item, .forecast__large-item {
 	display: inline-block;
 	vertical-align: middle;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: #cff7fe;
+	padding: 20px 0 20px;
 	font-size: 18px;
 	font-weight: 800;
 	text-align: center;
 	text-transform: capitalize;
-}
-
-a {
-	display: inline-block;
-	text-decoration: none;
-	width: 100%;
-	height: 100%;
-	color: #cff7fe;
-	padding: 20px 0 20px;
 	border: 2px solid #fff;
-	opacity: 0.5;
 	transition: all .3s ease;
 }
 
-a:hover {
+.forecast__city-list:hover a {
+	opacity: 0.6;
+}
+
+.forecast__city-list a:hover {
 	opacity: 1;
 }
 
 p {
 	font-weight: 300;
-	padding-top: 17px;
+	margin-top: 17px;
 }
 
 .forecast__small-item {
@@ -111,7 +112,7 @@ p {
 	background-color: #626a95;
 }
 
-h3 {
+.footer__text {
 	text-transform: capitalize;
 	font-size: 15px;
 }
