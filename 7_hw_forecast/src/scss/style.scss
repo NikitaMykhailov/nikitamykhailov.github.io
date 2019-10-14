@@ -34,7 +34,7 @@ h1 {
 	vertical-align: middle;
 }
 
-a {
+.city__link {
 	display: block;
 	text-decoration: none;
 	color: #cff7fe;
@@ -55,7 +55,7 @@ a {
 	opacity: 1;
 }
 
-p {
+.city__degrees {
 	font-weight: 300;
 	margin-top: 17px;
 }
@@ -72,47 +72,48 @@ p {
 	width: 100%;
 }
 
-.city__aqua {
+.aqua {
 	background-color: #24bdc7;
 }
 
-.city__light-pink {
+.light-pink {
 	background-color: #976f96;
 }
 
-.city__red {
+.red {
 	background-color: #c75441;
 }
 
-.city__orange {
+.orange {
 	background-color: #e67243;
 }
 
-.city__yellow {
+.yellow {
 	background-color: #fecb5c;
 }
 
-.city__light-green {
+.light-green {
 	background-color: #94c394;
 }
 
-.city__unknow {
+.unknow {
 	background-color: #5f9393;
 }
 
-.city__pink {
+.pink {
 	background-color: #cc7391;
 }
 
-.city__green {
+.green {
 	background-color: #278d64;
 }
 
-.city__purple {
+.purple {
 	background-color: #626a95;
 }
 
 .footer__text {
 	text-transform: capitalize;
 	font-size: 15px;
+	margin: 0;
 }
