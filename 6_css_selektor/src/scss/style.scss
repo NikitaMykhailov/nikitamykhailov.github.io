@@ -57,7 +57,7 @@ header {
 	transition: all .3s ease;
 }
 
-.form__label:active {
+.form__list-item .form__label:active {
 	background-color: #cc796c;
 }
 
@@ -87,7 +87,7 @@ input:checked ~ span {
 	color: #fff;
 	display: inline-block;
 	font-size: 20px;
-	padding: 0 10px 0 20px;
+	margin: 0 10px 0 20px;
 }
 
 .form__text-comment {
