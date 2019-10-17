@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+* {
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ededed;
+	padding: 0 15px;
+	color: #000;
+	font-family: "Lato";
+}
+
+.container {
+	max-width: 1400px;
+	margin: auto;
+}
+
+.content {
+	width: 100%;
+	max-width: 1400px;
+	padding: 0 100px 80px;
+	margin: 55px 0;
+	background-color: #fff;
+}
+
+.page__title {
+	font-size: 42px;
+	text-transform: capitalize;
+	padding-top: 80px;
+	padding-bottom: 43px;
+}
+
+.page__letter-text {
+	color: #7a7a7a;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.page__letter-text::first-letter {
+    font-family: "Playfair Display";
+    font-size: 95px;
+    width: 100%;
+    color: #000;
+    float: left;
+    text-transform: uppercase;
+    padding: 25px 24px 24px 0
+}
+
+.page__text {
+	display: flex;
+	justify-content: space-between;
+	color: #7a7a7a;
+	font-size: 18px;
+	line-height: 28px;
+	padding-bottom: 20px;
+}
+
+.page__quote {
+	display: block;
+	font-size: 24px;
+	color: #7a7a7a;
+	font-style: italic;
+	font-weight: 600;
+	padding-bottom: 40px;
+}
+
+.page__quote::before {
+	font-size: 35px;
+
+}
+
+.page__link-btn {
+	display: block;
+	max-width: 265px;
+	padding: 20px 80px;
+	border: 1px solid #eaa258;
+	color: #eaa258;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 600;
+	text-decoration: none;
+	transition: all .5s ease;
+}
+
+.page__link-btn:hover {
+	background-color: #eaa258;
+	color: #000;
+}
