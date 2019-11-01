@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f6f6f6;
+	color: #3c3c3c;
+	font-size: 16px;
+	font-family: 'Lato';
+}
+
+.container {
+	width: 100%;
+	max-width: 1400px;
+	margin: auto;
+	padding: 0 15px;
+}
+
+.section__team {
+	padding-top: 40px;
+}
+
+.team__main-title {
+	text-transform: uppercase;
+	font-size: 34px;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.team__underline {
+	margin: auto;
+	border: 4px solid #dddbdb;
+	width: 40px;
+	margin-bottom: 40px;
+}
+
+.team__main-text {
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+
+.team {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.team__list {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	justify-content: space-around;
+	list-style: none;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.team__social-list {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0 50px;
+	background-color: #008cba;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: all .5s ease;
+	list-style: none;
+	opacity: 0;
+}
+
+.team__list:hover .team__social-list {
+	opacity: 1;
+}
+
+.team__social-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 43px;
+	height: 40px;
+	padding: 10px;
+	background-color: lighten(#18b5dc, 10%);
+	transition: all .5s ease;
+}
+
+.team__social-link:hover {
+	background-color: lighten(#18b5dc, 25%);
+}
+
+.team__name {
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.team__position {
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0;
+}
