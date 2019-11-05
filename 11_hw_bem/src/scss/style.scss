@@ -19,25 +19,31 @@ body {
 
 .container {
 	width: 100%;
-	max-width: 1300px;
+	max-width: 1250px;
+	margin: 0 auto;
 	padding: 0 15px;
-	margin: auto;
 }
 
-.cahee__main {
-	padding: 30px 20px;
+.cahee__main-section {
 	width: 100%;
 	height: 100vh;
 	margin: auto;
-	background: url("../img/bg_main.png") center no-repeat;
-	background-size: 100%;
+	background: url("../img/bg_main.png") no-repeat;
+	background-size: cover;
 }
 
-.cahee__header {
+.cahee__main {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.cahee__main-header {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-	margin-bottom: 120px;
 }
 
 .cahee__header-logo {
@@ -109,7 +115,6 @@ body {
 	text-transform: uppercase;
 	color: #fff;
 	background-color: #ff6033;
-	margin-bottom: 90px;
 	box-shadow: 0 3px 3px 3px rgba(0,0,0,0.1);
 	transition: all .5s ease;
 }
@@ -126,21 +131,25 @@ body {
 	font-size: 0;
 }
 
-.cahee__about {
-	position: relative;
-	padding: 0 20px;
+.cahee__about-section {
+	background: #00b3b3;
+	padding: 30px 0 20px;
 	width: 100%;
 	height: 100vh;
-	background: url("../img/bg_about.png") center no-repeat;
-	background-color: #00b2b2;
-	background-position: left;
-	color: #fff;
+	margin: auto;
+}
+
+.cahee__about {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 50px 40px;
 }
 
 .cahee__about-info {
-	padding: 110px 130px 0 0;
-	position: absolute;
-	right: 0;
 	width: 100%;
 	max-width: 550px;
 }
@@ -156,4 +165,3 @@ body {
 	font-size: 17px;
 	line-height: 1.8;
 }
-
