@@ -26,7 +26,8 @@ body {
 	background-color: #fff;
 }
 
-.header__text {
+.page__header {
+	padding: 50px;
 	position: absolute;
 	right: 0;
 	width: 100%;
@@ -35,8 +36,7 @@ body {
 	color: #fff;
 }
 
-.header__title {
-	padding: 50px 0 0 65px;
+.page__header-title {
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	color: #777777;
@@ -44,27 +44,27 @@ body {
 	font-family: 'Montserrat';
 }
 
-.header__headline {
+.page__header-headline {
 	text-transform: capitalize;
 	font-size: 48px;
-	padding-left: 65px;
 	font-family: 'Playfair Display';
 	font-weight: 300;
 	margin-bottom: 20px;
 }
 
-.header__headline:after {
+.page__header-headline:after {
 	content: '';
 	border-right: 1px solid #afb1b3;
 	margin-left: 55px;
 }
 
 hr {
-	margin-bottom: 50px;
 	background: #303030;
 }
 
-.header__nav {
+.page__navigation {
+	padding: 22px;
+	background-color: #f4bb2c;
 	position: absolute;
 	right: 0;
 	top: 214px;
@@ -72,18 +72,16 @@ hr {
 	max-width: 810px;
 }
 
-.header__nav-list {
+.page__navigation-list {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
 	list-style: none;
-	background-color: #f4bb2c;
-	padding: 22px 0;
 }
 
-.header__nav-link {
+.page__navigation-link {
 	display: block;
 	text-align: center;
 	width: 38px;
@@ -92,28 +90,28 @@ hr {
 	transition: all .3s ease;
 }
 
-.header__nav-link:hover {
+.page__navigation-link:hover {
 	opacity: 1;
 }
 
-.page__text-area {
+.page__wrapper {
 	width: 100%;
 	max-width: 920px;
 	padding: 300px 50px 50px;
 	margin: auto;
 }
 
-.page__text-area::before {
+.page__wrapper::before {
 	content: '';
 	width: 0;
 	height: 100%;
 	position: absolute;
-	border: 2px solid #e8eced;
+	border-left: 4px solid #e8eced;
 	top: 0;
 	left: 100px;
 }
 
-.page__title-main {
+.page__title {
 	width: 100%;
 	margin-bottom: 50px;
 	color: #b4b4b4;
@@ -140,7 +138,6 @@ hr {
 .page__text {
 	text-align: justify;
 	width: 100%;
-	max-width: 805px;
 	font-size: 27px;
 	text-transform: capitalize;
 	margin-bottom: 40px;
