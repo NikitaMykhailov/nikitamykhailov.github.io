@@ -55,6 +55,7 @@ body {
 	max-width: 570px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	list-style: none;
 }
 
@@ -146,7 +147,6 @@ body {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	padding: 0 50px 40px;
 }
 
 .cahee__about-info {
