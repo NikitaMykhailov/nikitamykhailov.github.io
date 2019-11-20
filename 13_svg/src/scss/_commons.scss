@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	min-height: 100vh;
+}
+
+body {
+	font-size: $base-size;
+	font-family: $main-font;
+}
+
+a, ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 1120px;
+	padding: 0 15px;
+	margin: auto;
+}
+
+.dl-wrapper {
+	width: 100%;
+	max-width: 900px;
+	height: 100%;
+	margin: auto;
+}
+
+.dl-title {
+	color: $black-el;
+	text-transform: uppercase;
+	font-size: px_to_rem(28px);
+	font-weight: 300;
+	letter-spacing: 0.5;
+	overflow: hidden;
+	transform: translateY(50%);
+
+		@include lg-screen {
+			font-size: px_to_rem(34px);
+		}
+}
+
+.dl-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-height: 200px;
+	border-right: 2px solid $black-el;
+	border-bottom: 2px solid $black-el;
+	border-left: 2px solid $black-el;
+	padding: 30px 0;
+	line-height: 2;
+
+		@include lg-screen {
+			padding: 30px 120px;
+			line-height: 1.5;
+		}
+
+	&::before {
+		content: "";
+		width: 20%;
+		height: 2px;
+		background-color: $black-el;
+		top: 0;
+		left: 0;
+		position: absolute;
+	}
+
+	&::after {
+		content: "";
+		width: 20%;
+		height: 2px;
+		background-color: $black-el;
+		top: 0;
+		right: 0;
+		position: absolute;
+	}
+}
+
+.dl-text {
+	width: 100%;
+	max-width: 550px;
+	margin: auto;
+}
+
+.dl-fs,
+.dl-about,
+.dl-services,
+.dl-what,
+.dl-works,
+.dl-contact,
+.dl-footer {
+		margin-bottom: 20px;
+}

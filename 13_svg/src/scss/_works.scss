@@ -1,0 +1,127 @@
+.dl-works {
+	display: flex;
+	width: 100%;
+	min-height: 630px;
+
+	&__wrapper {
+		width: 100%;
+		max-width: 1920px;
+		height: 100%;
+		margin: auto;
+	}
+
+	&__item-list {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 490px;
+
+		@include lg-screen {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+	}
+
+	&__item {
+		width: 100%;
+		height: 49%;
+
+		@include lg-screen {
+			width: 29%;
+			max-width: 550px;
+		}
+	}
+
+	&__link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+
+		color: $white-el;
+		text-transform: uppercase;
+		font-size: px_to_rem(34px);
+		transition: all .5s ease;
+
+		@include lg-screen {
+			display: flex;
+			justify-content: flex-start;
+			align-items: flex-end;
+			padding: 0 0 40px 50px;
+		}
+
+		@include lg-screen {
+
+			&:hover {
+				font-size: 40px;
+				transform: scale(1.1);
+			}
+		}
+	}
+}
+
+.dl-works__item:nth-child(2),
+.dl-works__item:nth-child(5) {
+	width: 100%;
+
+	@include lg-screen {
+		width: 40%;
+	}
+}
+
+.topworkz {
+	background: url("../img/dl-works-item1.png") no-repeat;
+	background-size: 100%;
+
+	@include lg-screen {
+		background-size: auto;
+	}
+}
+
+.joint {
+	background: url("../img/dl-works-item2.png") no-repeat;
+	background-size: 100%;
+
+	@include lg-screen {
+		background-size: auto;
+	}
+}
+
+.market {
+	background: url("../img/dl-works-item3.png") no-repeat;
+	background-size: 100%;
+
+	@include lg-screen {
+		background-size: auto;
+	}
+}
+
+.worktop {
+	background: url("../img/dl-works-item4.png") no-repeat;
+	background-size: 100%;
+
+	@include lg-screen {
+		background-size: auto;
+	}
+}
+
+.lable {
+	background: url("../img/dl-works-item5.png") no-repeat;
+	background-size: 100%;
+
+	@include lg-screen {
+		background-size: auto;
+	}
+}
+
+.kyiv {
+	background: url("../img/dl-works-item6.png") no-repeat;
+	background-size: 100%;
+
+	@include lg-screen {
+		background-size: auto;
+	}
+}
