@@ -1,0 +1,85 @@
+.mn-navbar {
+	width: 100%;
+	height: 100%;
+	max-height: 170px;
+
+	&__list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+	}
+
+	&__list-item {
+		width: 100%;
+		height: 170px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+	}
+
+	&__list-link {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.search {
+	background-color: $navbar-btn;
+	transition: all .5s ease;
+}
+
+.search:hover {
+	background-color: $navbar-btn;
+}
+
+.power {
+	background-color: $navbar-btn2;
+	transition: all .5s ease;
+}
+
+.power:hover {
+	background-color: $navbar-btn;
+}
+
+.apple {
+	background-color: $navbar-btn3;
+	transition: all .5s ease;
+}
+
+.apple:hover {
+	background-color: $navbar-btn;
+}
+
+.buy {
+	background-color: $navbar-btn4;
+	transition: all .5s ease;
+}
+
+.buy:hover {
+	background-color: $navbar-btn;
+}
+
+.secret {
+	background-color: $navbar-btn5;
+	transition: all .5s ease;
+}
+
+.secret:hover {
+	background-color: $navbar-btn;
+}
+
+.star {
+	background-color: $navbar-btn6;
+	transition: all .5s ease;
+}
+
+.star:hover {
+	background-color: $navbar-btn;
+}

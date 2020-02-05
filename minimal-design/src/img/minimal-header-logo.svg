@@ -1,0 +1,56 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="178" height="60.094" viewBox="0 0 178 60.094">
+<defs>
+    <style>
+      .cls-1, .cls-8 {
+        font-size: 43px;
+      }
+
+      .cls-1 {
+        fill: #038c8c;
+        font-family: StRydeRegular;
+      }
+
+      .cls-2 {
+        fill: #0aa096;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #0eb0a5;
+      }
+
+      .cls-4 {
+        fill: #17c0b5;
+      }
+
+      .cls-5 {
+        fill: #1fd0c4;
+      }
+
+      .cls-6 {
+        fill: #2ee2d6;
+      }
+
+      .cls-7 {
+        fill: #42eee3;
+      }
+
+      .cls-8 {
+        fill: #fff;
+        font-family: SegoeWP;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <text id="inimal" class="cls-1" x="55" y="42.094">inimal</text>
+  <path class="cls-2" d="M164,72.9h49V83H164V72.9Z" transform="translate(-164 -22.906)"/>
+  <path id="Shape_9_copy" data-name="Shape 9 copy" class="cls-3" d="M164,62.9h49V73H164V62.9Z" transform="translate(-164 -22.906)"/>
+  <path id="Shape_9_copy_2" data-name="Shape 9 copy 2" class="cls-4" d="M164,52.9h49V63H164V52.9Z" transform="translate(-164 -22.906)"/>
+  <path id="Shape_9_copy_3" data-name="Shape 9 copy 3" class="cls-5" d="M164,42.9h49V53H164V42.9Z" transform="translate(-164 -22.906)"/>
+  <path id="Shape_9_copy_4" data-name="Shape 9 copy 4" class="cls-6" d="M164,32.9h49V43H164V32.9Z" transform="translate(-164 -22.906)"/>
+  <path id="Shape_9_copy_5" data-name="Shape 9 copy 5" class="cls-7" d="M164,22.9h49V33H164V22.9Z" transform="translate(-164 -22.906)"/>
+  <text id="M" class="cls-8" x="6.001" y="44.094">M</text>
+</svg>
