@@ -1,24 +1,35 @@
 .dl-fs {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	flex-direction: column;
 	width: 100%;
 	height: 100vh;
+	margin: auto;
 	background: url("../img/dl-header-bg.png") no-repeat;
 	color: $white-el;
 	text-align: center;
 
-		@include lg-screen {
-			background-size: 100%;
-		}
+	@include lg-screen {
+		background-size: 100%;
+	}
 
 	&__wrapper {
+		width: 100%;
+		height: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
+	}
 
+	&__wrapper-box {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
 		width: 100%;
-		height: 100vh;
+		height: 100%;
+		height: 500px;
 	}
 
 	&__title {
@@ -39,4 +50,41 @@
 		line-height: 2;
 		letter-spacing: 1px;
 	}
+
+	&__scroll-link {
+		width: 100%;
+		max-width: 25px;
+		opacity: 0.5;
+		transition: all .5s ease;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+.dl-fs__logo .cls-1,
+.dl-fs__logo .cls-2 {
+	fill: none;
+	stroke-width: 2px;
+}
+.dl-fs__logo .cls-1 {
+	stroke: #fff;
+}
+.dl-fs__logo .cls-1,
+.dl-fs__logo .cls-2,
+.dl-fs__logo .cls-3 {
+	fill-rule: evenodd;
+}
+.dl-fs__logo .cls-2 {
+	stroke: #f6f7fc;
+}
+.dl-fs__logo .cls-3,
+.dl-fs__logo .cls-4 {
+	fill: #fff;
+}
+
+.dl-fs__scroll-logo .cls-1 {
+	fill: #fff;
+	fill-rule: evenodd;
 }

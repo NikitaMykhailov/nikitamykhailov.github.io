@@ -3,15 +3,49 @@
 	justify-content: space-around;
 	align-items: center;
 	width: 100%;
-	max-width: 420px;
+	max-width: 340px;
 	height: 100%;
 	min-height: 100px;
-	margin: auto;
+	margin: 0 auto;
 	color: $black-el;
+
+	@include lg-screen {
+		min-height: 110px;
+	}
+
+	&__logo-link {
+		width: 35px;
+		height: 37px;
+	}
 
 	&__info {
 		text-transform: capitalize;
 		font-size: px_to_rem(14px);
 		color: $black-el;
 	}
+}
+
+.dl-footer__logo .cls-1,
+.dl-footer__logo .cls-2 {
+	fill: none;
+	stroke-width: 2px;
+}
+
+.dl-footer__logo .cls-1 {
+	stroke: #000;
+}
+
+.dl-footer__logo .cls-1,
+.dl-footer__logo .cls-2,
+.dl-footer__logo .cls-3 {
+	fill-rule: evenodd;
+}
+
+.dl-footer__logo .cls-2 {
+	stroke: #000;
+}
+
+.dl-footer__logo .cls-3,
+.dl-footer__logo .cls-4 {
+	fill: #000;
 }

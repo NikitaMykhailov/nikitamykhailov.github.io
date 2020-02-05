@@ -1,4 +1,7 @@
 .dl-services {
+	display: flex;
+	align-items: center;
+	text-align: center;
 	width: 100%;
 	height: 100%;
 	min-height: 430px;
@@ -6,12 +9,11 @@
 	background: url("../img/dl-service-bg.png") no-repeat;
 	color: $white-el;
 	line-height: 1.5;
-	text-align: center;
 
-		@include lg-screen {
-			background-size: cover;
-			min-height: 300px;
-		}
+	@include lg-screen {
+		background-size: cover;
+		min-height: 490px;
+	}
 
 	&__title {
 		color: $white-el;
@@ -21,15 +23,18 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
+		align-items: center;
 		position: relative;
 		width: 100%;
+		height: 100%;
+		min-height: 250px;
 		border-right: 2px solid $white-el;
 		border-bottom: 2px solid $white-el;
 		border-left: 2px solid $white-el;
 
 		&::before {
 			content: "";
-			width: 20%;
+			width: 30%;
 			height: 2px;
 			background-color: $white-el;
 			top: 0;
@@ -39,7 +44,7 @@
 
 		&::after {
 			content: "";
-			width: 20%;
+			width: 30%;
 			height: 2px;
 			background-color: $white-el;
 			top: 0;

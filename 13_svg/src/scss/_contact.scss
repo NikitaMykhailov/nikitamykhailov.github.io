@@ -8,11 +8,15 @@
 	color: $black-el;
 	line-height: 1.5;
 
+	@include lg-screen {
+		min-height: 400px;
+	}
+
 	&__btn {
 		width: 100%;
 		max-width: 200px;
 		padding: 10px 0;
-		margin: auto;
+		margin: 0 auto;
 		color: $white-el;
 		font-size: px_to_rem(16px);
 		text-transform: uppercase;

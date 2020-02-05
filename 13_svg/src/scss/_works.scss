@@ -1,19 +1,26 @@
 .dl-works {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
 	min-height: 630px;
+
+	@include lg-screen {
+			min-height: 600px;
+		}
+
 
 	&__wrapper {
 		width: 100%;
 		max-width: 1920px;
 		height: 100%;
-		margin: auto;
+		margin: 0 auto;
 	}
 
 	&__item-list {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: center;
 		height: 490px;
 
 		@include lg-screen {
