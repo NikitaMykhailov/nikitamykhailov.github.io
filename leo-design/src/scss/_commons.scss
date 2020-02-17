@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	min-height: 100vh;
+}
+
+body {
+	font-size: $base-size;
+	font-family: $main-font;
+}
+
+a, ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 1280px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.leo-wrapper {
+	width: 100%;
+	max-width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
